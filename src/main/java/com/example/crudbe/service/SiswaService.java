@@ -36,8 +36,7 @@ public class SiswaService {
             existingSiswa.setJurusan(updatedSiswa.getJurusan());
             existingSiswa.setJenisKelamin(updatedSiswa.getJenisKelamin());
             existingSiswa.setTanggalLahir(updatedSiswa.getTanggalLahir());
-
-
+            existingSiswa.setKelasModel(updatedSiswa.getKelasModel());
 
             return siswaRepository.save(existingSiswa);
         } else {
